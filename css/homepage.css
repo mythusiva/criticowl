@@ -1,0 +1,82 @@
+.left_pane {
+	float: left;
+	width: 65%;
+	font-size: 16px;
+}
+.right_pane {
+	float: right;
+	width: 32%;
+	font-size: 16px;
+}
+.movies_list {
+	text-align: right;
+}
+.review_block {
+	display: block;
+}
+.review {
+
+}
+
+.review-right {
+	padding: 0px 5px;
+}
+.review-left {
+	min-width: 200px;
+}
+
+.sub-table {
+	text-align: center;
+	font-size: 14px;
+	width: 100%;
+}
+
+.sub-table tr:nth-of-type(odd) {
+  background-color:#FFFFFF;
+}
+.sub-table tr:nth-of-type(even) {
+  background-color:#F2F2F2;
+}
+
+.homepage_slideshow {
+}
+
+.upcoming_releases_list {
+	margin: 10px 0px;
+}
+
+.upcoming_releases_list .content {
+	border: 1px solid #DFDFDF;
+}
+
+.recent_tweets_container {
+	display:block;
+}
+
+/*.watch_in_theatres_main_container,.own_it_main_container {
+	display: block;
+}
+
+.media_tiles_block {
+	text-align: center;
+	background-color: #D2D3CF;
+	padding-bottom: 10px;
+}
+
+.media_tile {
+	display: inline-block;
+	margin: 10px 10px 0px 10px;
+	width: 45%;
+	text-align: center;
+	background-color: #FFFFFF;
+	box-shadow: 0px 1px 10px #868686;
+}
+
+.media_tile_img_thumbnail {
+	width: 100%;
+	height: 100px;
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: #101010;
+}*/

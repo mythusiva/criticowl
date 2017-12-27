@@ -1,0 +1,41 @@
+.article {
+	display: block;
+}
+
+.article-right {
+	display: inline-block;
+	padding: 0px 5px;
+	max-width: 50%;
+}
+.article-left {
+	display: inline-block;
+	min-width: 260px;
+	max-width: 40%;
+}
+
+.article_container {
+	margin: 10px 0px;
+	background-color: #FFFFFF;
+	border-bottom: solid 5px #53A8FF;
+	box-shadow: 0px 1px 10px #868686;
+}	
+
+.article-top-label {
+	padding: 2px 5px;
+}
+
+.article-bottom-label {
+	float: right;
+	padding: 0px 5px 5px 0px;
+}
+
+.article-content {
+	text-align: justify;
+	padding: 10px 0px;
+	margin-right: 15px;
+}
+
+.preview-article-title {
+	font-size: 20px;
+	padding: 10px 0px;
+}

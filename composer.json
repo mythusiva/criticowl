@@ -1,0 +1,5 @@
+{
+    "require": {
+        "mrjgreen/database": "^2.5"
+    }
+}

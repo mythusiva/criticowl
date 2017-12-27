@@ -1,0 +1,1 @@
+CriticOwl Update: <?=$media_name?> - <?=$article_title?>

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>CriticOwl - Admin Log In</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"> 
+
+<link rel="shortcut icon" type="image/x-icon" href="http://www.criticowl.com/img/favicon_logo_red.ico?v=v2.4.8">
+<link rel="apple-touch-icon" href="http://www.criticowl.com/img/xapple-touch-icon.png.pagespeed.ic.-CPbDdqXIi.png"/>
+<link rel="apple-touch-icon-precomposed" href="http://www.criticowl.com/img/xapple-touch-icon.png.pagespeed.ic.-CPbDdqXIi.png"/>
+
+<style>@font-face {
+	font-family: MenuLabel;
+	src: url('/css/fonts/Montserrat/Montserrat-Bold.ttf');
+}@font-face {
+	font-family: QuoteText;
+	src: url('/css/fonts/Quote/Quote.ttf');
+}@font-face {
+	font-family: BodyText;
+	src: url('/css/fonts/Montserrat/Montserrat-Regular.ttf');
+}@font-face {
+	font-family: TitleText;
+	src: url('/css/fonts/Montserrat/Montserrat-Regular.ttf');
+}@font-face {
+	font-family: LabelText;
+	src: url('/css/fonts/Montserrat/Montserrat-Regular.ttf');
+}</style>
+
+
+<link type="text/css" href="http://www.criticowl.com/css/A.desktop_compressed.css,qv=v2.4.8.pagespeed.cf.GC4VN3KMFu.css" media="only screen and (min-width: 981px)" rel="stylesheet">
+<link type="text/css" href="http://www.criticowl.com/css/A.mobile_compressed.css,qv=v2.4.8.pagespeed.cf.PXZmyEdfkJ.css" media="only screen and (max-width: 980px)" rel="stylesheet">
+<script type="text/javascript" src="http://www.criticowl.com/js/compressed.js,qv=v2.4.8.pagespeed.jm.jI8953OTLA.js"></script>
+
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5234d0e04d6d9a7b" async="async"></script>
+
+<!-- SEASONAL CODE: Snow!!! :D -->
+<!-- <script type="text/javascript"  src="https://cdnjs.cloudflare.com/ajax/libs/Snowstorm/20131208/snowstorm-min.js"></script> -->
+<script type="text/javascript">snowStorm.snowColor='#efefef';snowStorm.flakesMaxActive=25;snowStorm.followMouse=false;snowStorm.vMaxX=1;snowStorm.vMaxY=2;snowStorm.snowCharacter='<span style="text-shadow: 2px 2px 5px #646464;">•</span>';</script>
+<!-- ===== -->
+
+<!-- admin loads -->
+	<script type="text/javascript" src="http://www.criticowl.com/js/ckeditor/ckeditor.js?v=v2.4.8"></script>
+
+</head>
+<style type="text/css">.left_info_pane{float:left;width:45%;font-size:16px}.right_info_pane{float:right;width:45%;font-size:16px}.button_set{padding:10px;text-align:center}.input_section{clear:both;padding:15px 0px}.sub_input_section{clear:both;padding:15px 0px}</style>
+<body><noscript><meta HTTP-EQUIV="refresh" content="0;url='http://www.criticowl.com/admin/login?PageSpeed=noscript'" /><style><!--table,div,span,font,p{display:none} --></style><div style="display:block">Please click <a href="http://www.criticowl.com/admin/login?PageSpeed=noscript">here</a> if you are not redirected within a few seconds.</div></noscript>
+		<style type="text/css">.logo_icon{position:absolute;z-index:10;top:5px;left:5px;width:100px}.topbar-menu-links-area{display:inline-block;line-height:30px}.page_top_panel{}.fixed_menu{position:fixed;top:0;left:0;right:0;background-color:#232323;z-index:10;padding:10px 10px 5px 10px;font-size:20px;border-bottom:3px solid #a33d47}</style>
+<div class="top_panel_bkg">
+	<div id="top_bar" class="topbar">
+		<div onclick="window.location='/';" class="pointer topbar-left">
+			<div style="display: inline-block;">
+				<script pagespeed_no_defer="">//<![CDATA[
+(function(){var g=this,h=function(b,d){var a=b.split("."),c=g;a[0]in c||!c.execScript||c.execScript("var "+a[0]);for(var e;a.length&&(e=a.shift());)a.length||void 0===d?c[e]?c=c[e]:c=c[e]={}:c[e]=d};var l=function(b){var d=b.length;if(0<d){for(var a=Array(d),c=0;c<d;c++)a[c]=b[c];return a}return[]};var m=function(b){var d=window;if(d.addEventListener)d.addEventListener("load",b,!1);else if(d.attachEvent)d.attachEvent("onload",b);else{var a=d.onload;d.onload=function(){b.call(this);a&&a.call(this)}}};var n,p=function(b,d,a,c,e){this.f=b;this.h=d;this.i=a;this.c=e;this.e={height:window.innerHeight||document.documentElement.clientHeight||document.body.clientHeight,width:window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth};this.g=c;this.b={};this.a=[];this.d={}},q=function(b,d){var a,c,e=d.getAttribute("pagespeed_url_hash");if(a=e&&!(e in b.d))if(0>=d.offsetWidth&&0>=d.offsetHeight)a=!1;else{c=d.getBoundingClientRect();var f=document.body;a=c.top+("pageYOffset"in window?window.pageYOffset:(document.documentElement||f.parentNode||f).scrollTop);c=c.left+("pageXOffset"in window?window.pageXOffset:(document.documentElement||f.parentNode||f).scrollLeft);f=a.toString()+","+c;b.b.hasOwnProperty(f)?a=!1:(b.b[f]=!0,a=a<=b.e.height&&c<=b.e.width)}a&&(b.a.push(e),b.d[e]=!0)};p.prototype.checkImageForCriticality=function(b){b.getBoundingClientRect&&q(this,b)};h("pagespeed.CriticalImages.checkImageForCriticality",function(b){n.checkImageForCriticality(b)});h("pagespeed.CriticalImages.checkCriticalImages",function(){r(n)});var r=function(b){b.b={};for(var d=["IMG","INPUT"],a=[],c=0;c<d.length;++c)a=a.concat(l(document.getElementsByTagName(d[c])));if(0!=a.length&&a[0].getBoundingClientRect){for(c=0;d=a[c];++c)q(b,d);a="oh="+b.i;b.c&&(a+="&n="+b.c);if(d=0!=b.a.length)for(a+="&ci="+encodeURIComponent(b.a[0]),c=1;c<b.a.length;++c){var e=","+encodeURIComponent(b.a[c]);131072>=a.length+e.length&&(a+=e)}b.g&&(e="&rd="+encodeURIComponent(JSON.stringify(s())),131072>=a.length+e.length&&(a+=e),d=!0);t=a;if(d){c=b.f;b=b.h;var f;if(window.XMLHttpRequest)f=new XMLHttpRequest;else if(window.ActiveXObject)try{f=new ActiveXObject("Msxml2.XMLHTTP")}catch(k){try{f=new ActiveXObject("Microsoft.XMLHTTP")}catch(u){}}f&&(f.open("POST",c+(-1==c.indexOf("?")?"?":"&")+"url="+encodeURIComponent(b)),f.setRequestHeader("Content-Type","application/x-www-form-urlencoded"),f.send(a))}}},s=function(){var b={},d=document.getElementsByTagName("IMG");if(0==d.length)return{};var a=d[0];if(!("naturalWidth"in a&&"naturalHeight"in a))return{};for(var c=0;a=d[c];++c){var e=a.getAttribute("pagespeed_url_hash");e&&(!(e in b)&&0<a.width&&0<a.height&&0<a.naturalWidth&&0<a.naturalHeight||e in b&&a.width>=b[e].k&&a.height>=b[e].j)&&(b[e]={rw:a.width,rh:a.height,ow:a.naturalWidth,oh:a.naturalHeight})}return b},t="";h("pagespeed.CriticalImages.getBeaconData",function(){return t});h("pagespeed.CriticalImages.Run",function(b,d,a,c,e,f){var k=new p(b,d,a,e,f);n=k;c&&m(function(){window.setTimeout(function(){r(k)},0)})});})();pagespeed.CriticalImages.Run('/mod_pagespeed_beacon','http://www.criticowl.com/admin/login','WHCWRLQ14K',false,false,'nt3e5dnWHNU');
+//]]></script><img src="data:image/png;base64,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" class="main_logo_image" style="" pagespeed_url_hash="902250938" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/>
+			</div>
+			<div style="display: inline-block;vertical-align: bottom;padding: 0px 5px;">
+				<div class="text_logo_main" style="">CriticOwl</div>
+				<div class="text_logo_motto">&ldquo;Should you watch it? We'll let you know.&rdquo;</div>
+			</div>
+		</div>
+		<div class="topbar-right">
+			<div class='text_logo'>
+				“I’m the king of the world!” (Titanic)			</div>
+			<div id="mobile_menu_icon">
+				<span class="btn"><i class="icon-th"></i></span>
+			</div>
+		</div>
+		<div style="clear: both;"></div>
+
+		<div id="menu_start_marker"></div>
+		<div id="desktop_top_menu_sticky" class="top_menu_links fixed_menu" style="display:none;"></div>
+		<div id="desktop_top_menu_non_sticky" class="top_menu_links"></div>
+		
+		<div id="desktop_top_menu_prototype" style="display:none;">
+			<div class="topbar-menu-links-area">
+									<a href="/" id="home_btn" class="selected-topbar-button topbar-button">Home</a>
+
+					<a href="/reviews" id="reviews_btn" class=" topbar-button">Reviews</a>
+
+					<a href="/articles" id="articles_btn" class=" topbar-button">Articles</a>
+
+					<a href="/exclusive_articles" id="exclusive_articles_btn" class=" topbar-button">Exclusives</a>
+
+					<a class="topbar-button" target="_blank" href="http://feedburner.google.com/fb/a/mailverify?uri=Criticowl&amp;loc=en_US">Subscribe</a>
+
+								
+							</div>
+							<div class='topbar-social-button-area'>
+					<a href='https://www.facebook.com/wearecriticowl' target="_blank" class=''><img width="32" src='http://www.criticowl.com/img/social_media_icons/32xNxfacebook.png.pagespeed.ic.E-Qo14ElGj.png' pagespeed_url_hash="4030133190" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></a>
+					<a href='https://plus.google.com/+CriticOwl' target="_blank" class=''><img width="32" src='http://www.criticowl.com/img/social_media_icons/32xNxgoogleplus.png.pagespeed.ic.hhk0Jew5Bu.png' pagespeed_url_hash="361633055" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></a>
+					<a href='https://twitter.com/CriticOwl' target="_blank" class=''><img width="32" src='http://www.criticowl.com/img/social_media_icons/32xNxtwitter.png.pagespeed.ic.8_1hJ-eOQ3.png' pagespeed_url_hash="2558243373" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></a>
+					<a href='https://pinterest.com/CriticOwl' target="_blank" class=''><img width="32" src='http://www.criticowl.com/img/social_media_icons/32xNxpinterest.png.pagespeed.ic.MV2P_sQmNt.png' pagespeed_url_hash="2147217668" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></a>
+					<a href='/rss.xml' target="_blank" class=''><img width="32" src='http://www.criticowl.com/img/social_media_icons/32xNxrss.png.pagespeed.ic.C0IZF2wMAR.png' pagespeed_url_hash="377830344" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></a>
+				</div>
+					</div>
+
+		<div id="mobile_top_menu" class="top_menu_links">
+			<a href="/" id="mobile_home_btn" class="selected-topbar-button topbar-button">Home</a>
+
+			<a href="/reviews" id="mobile_reviews_btn" class=" topbar-button">Reviews</a>
+
+			<a href="/articles" id="mobile_articles_btn" class=" topbar-button">Articles</a>
+
+			<a href="/exclusive_articles" id="mobile_exclusive_articles_btn" class=" topbar-button">Exclusives</a>
+
+			<a class="topbar-button" target="_blank" href="http://feedburner.google.com/fb/a/mailverify?uri=Criticowl&amp;loc=en_US">Subscribe</a>
+
+			<div class='topbar-social-button-area'>
+				<a href='https://www.facebook.com/wearecriticowl' target="_blank" class=''><img width="32" src='http://www.criticowl.com/img/social_media_icons/32xNxfacebook.png.pagespeed.ic.E-Qo14ElGj.png' pagespeed_url_hash="4030133190" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></a>
+				<a href='https://plus.google.com/+CriticOwl' target="_blank" class=''><img width="32" src='http://www.criticowl.com/img/social_media_icons/32xNxgoogleplus.png.pagespeed.ic.hhk0Jew5Bu.png' pagespeed_url_hash="361633055" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></a>
+				<a href='https://twitter.com/CriticOwl' target="_blank" class=''><img width="32" src='http://www.criticowl.com/img/social_media_icons/32xNxtwitter.png.pagespeed.ic.8_1hJ-eOQ3.png' pagespeed_url_hash="2558243373" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></a>
+				<a href='https://pinterest.com/CriticOwl' target="_blank" class=''><img width="32" src='http://www.criticowl.com/img/social_media_icons/32xNxpinterest.png.pagespeed.ic.MV2P_sQmNt.png' pagespeed_url_hash="2147217668" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></a>
+				<a href='/rss.xml' target="_blank" class=''><img width="32" src='http://www.criticowl.com/img/social_media_icons/32xNxrss.png.pagespeed.ic.C0IZF2wMAR.png' pagespeed_url_hash="377830344" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"/></a>
+			</div>
+		</div>
+		<div style="clear: both;"></div>
+	</div>
+</div>
+
+<script type="text/javascript">$(document).ready(function(){init_menu();$('.dropdown-toggle').dropdown();$('.logo').click(function(){window.location="/";});if(window.addEventListener){window.addEventListener('scroll',on_scroll_events,false);}else if(window.attachEvent){window.attachEvent('onscroll',on_scroll_events);}
+$('#mobile_menu_icon').click(function(){$('#mobile_top_menu').toggle('fast');});});function on_scroll_events(){dynamically_change_menu();if(typeof load_more_feeds!='undefined'){load_more_feeds();}
+if(typeof retention_modal_article_page_check!='undefined'){retention_modal_article_page_check();}}
+function init_menu(){var menu_prototype=$('#desktop_top_menu_prototype').html();$('#desktop_top_menu_sticky').html(menu_prototype);$('#desktop_top_menu_non_sticky').html(menu_prototype);}
+function load_more_feeds(){if($(window).scrollTop()>=($(document).height()-$(window).height())*0.5){$('.auto_load_feed').click();}}
+function dynamically_change_menu(){if(is_mobile()){return;}
+var $desktop_menu_top=$('#desktop_top_menu_sticky');var menu_marker_pos=$('#menu_start_marker').offset().top-15;var window_pos=$(window).scrollTop();if(window_pos>=menu_marker_pos&&!$desktop_menu_top.is(':visible')){$desktop_menu_top.toggle();}else if(window_pos<menu_marker_pos&&$desktop_menu_top.is(':visible')){$desktop_menu_top.toggle();}}</script>  <div class="main_body">
+		<div class="main_content">
+			<div id="notification_block">
+							</div>
+			<div class="content_wrapper">
+				<div class="left_info_pane">
+					<p>
+						Admins, welcome to the backend!
+					</p>
+					<p>
+						Please use the login credentials given to you when joining our team.
+						You will be allowed only 3 attempts to log in. Once a completed failure has been reached your IP will be
+						banned from our website completely. 
+					</p>
+				</div>
+				<div class="right_info_pane">
+					<div class="panel panel_spacing">
+						<div class="titlebar">
+							Members
+						</div>
+						<div class="panel-content">
+							<form id="login_box" method="POST" action='/login/user_login' class="form-horizontal">
+								<table>
+									<tr class="rows">
+										<td class="columns">
+											Email address:
+										</td>
+										<td class="columns">
+											<input id="email_field" name="email" type="text" class="input-large" value=""/>
+										</td>
+									</tr>
+									<tr class="rows">
+										<td class="columns">
+											Password:
+										</td>
+										<td>
+											<input id="password_field" name="pass" type="password" class="input-large" value=""/>
+										</td>
+									</tr>
+								</table>
+								<div class=" panel_button_area">
+									<hr/>
+									<button id="login_btn" class="btn btn-success">Sign in</button>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div style="clear: both;"></div>
+				</div>
+				<div style="clear: both;"></div>
+			</div>
+		</div>
+	</div>
+	<style type="text/css">.footer{margin:0px auto;padding:15px 0px;font-family:'Asap',sans-serif;text-align:center;color:#232323;background-color:#333}.site_footer_link{padding:10px;font-size:15px}.footer div{color:#c1c1c1;font-weight:bold;padding-bottom:20px}</style>
+
+<div class="is_mobile"></div>
+
+<div class="footer">
+	<div>
+		&copy; 2013 - 2014 CriticOwl. All Rights Reserved.
+	</div>
+	<div>
+		<span class="site_footer_link"><a href="/about-us">About Us</a></span>
+		<span class="site_footer_link"><a href="/terms-and-conditions">Terms and Conditions</a></span>
+		<span class="site_footer_link"><a href="/privacy-policy">Privacy Policy</a></span>
+		<span class="site_footer_link"><a href="/contact-us">Contact Us</a></span>
+	</div>
+	<div>
+		<a href='http://rayantek.com' target="_blank">A Rayantek Production</a>
+	</div>
+<!--[if lt IE 7 ]> <div class="ie-detection ie6 ie"></div> <![endif]-->
+<!--[if IE 7 ]>    <div class="ie-detection ie7 ie"></div> <![endif]-->
+<!--[if IE 8 ]>    <div class="ie-detection ie8 ie"></div> <![endif]-->
+<!--[if IE 9 ]>    <div class="ie-detection ie9 ie"></div> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <div class="ie-detection"></div> <!--<![endif]-->
+</div>
+
+<script type="text/javascript">$(document).ready(function(){if(Function('/*@cc_on return document.documentMode===10@*/')()){document.documentElement.className+=' ie';}
+if($('.ie-detection').hasClass('ie')){window.location="/browser_fail";}});</script>
+
+
+</body>
+
+</html>
+
+<script>$(document).ready(function(){$('#login_btn').click(function(){$('#login_box').submit();});$('#password_field').keypress(function(e){if(e.which==13){$('#login_btn').click();}});});</script>

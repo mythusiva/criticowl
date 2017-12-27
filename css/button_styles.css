@@ -1,0 +1,144 @@
+/*Buttons*/
+.red_button {
+	border: 1px solid #AA1111;
+	border-radius: 2px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #AA1111;
+	padding: 2px 4px;
+}
+
+.red_button:hover {
+	background-color: #E68F8F;
+	border: 1px solid #E68F8F;
+	cursor: pointer;
+}
+
+.action_button {
+	border: 1px solid #33874F;
+	border-radius: 2px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #1EAA4D;
+	padding: 2px 4px;
+}
+
+.action_button:hover {
+	background-color: #1B7C3B;
+	border: 1px solid #1B7C3B;
+	cursor: pointer;
+}
+
+.gray_button {
+	border: 1px solid #343434;
+	border-radius: 5px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #343434;
+	padding: 5px;
+}
+
+.gray_button:hover {
+	background-color: #646464;
+	border: 1px solid #646464;
+	cursor: pointer;
+}
+
+.darkblue_button {
+	border: 1px solid #2B4372;
+	border-radius: 3px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #35589E ;
+	padding: 3px 5px;
+}
+
+.darkblue_button:hover {
+	background-color: #646464;
+	border: 1px solid #646464;
+	cursor: pointer;
+}
+
+.upload_button {
+	border: 1px solid #777777;
+	border-radius: 3px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #2DB730;
+	padding: 5px 8px;
+}
+
+.upload_button:hover {
+	background-color: #23843F;
+	cursor: pointer;
+}
+
+.black_button {
+	border: 1px solid #000000;
+	border-radius: 5px;
+	font-weight: bold;
+	color: #FFFFFF;
+	background-color: #000000;
+	padding: 5px;
+}
+
+.black_button:hover {
+	background-color: #AA1111;
+	border: 1px solid #AA1111;
+	cursor: pointer;
+}
+
+.navigation_button {
+	border: 1px solid #C4C4C4;
+	border-radius: 2px;
+	font-weight: bold;
+	color: #232323;
+	background-color: #D6D6D6;
+	padding: 4px;
+	font-size: 12px;
+}
+
+.navigation_button:hover {
+	background-color: #ADADAD;
+	cursor: pointer;
+}
+
+.big_button {
+	padding: 5px;
+	font-size: 20px;
+}
+
+.menu_link {
+	font-size: 14px;
+	color: #111111;
+	padding: 2px;
+}
+
+.mini_button {
+	font-size: 11px;
+	padding: 2px 5px;
+}
+
+.topbar-button {
+	color: #B7B7B7;
+	padding: 10px;
+}
+.topbar-button:hover {
+	color: #F7F7F7;
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.topbar-social-button {
+	color: #B7B7B7;
+	padding: 10px 2px;
+}
+.topbar-social-button:hover {
+	color: #F7F7F7;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.selected-topbar-button {
+	color: #FCFCFC;
+}

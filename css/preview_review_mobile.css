@@ -1,0 +1,41 @@
+.review {
+	display: block;
+}
+
+.review-right {
+	display: inline-block;
+	padding: 0px 5px;
+	max-width: 50%;
+}
+.review-left {
+	display: inline-block;
+	min-width: 260px;
+	max-width: 40%;
+}
+
+.review_container {
+	margin: 10px 0px;
+	background-color: #FFFFFF;
+	border-bottom: solid 5px #FF9595;
+	box-shadow: 0px 1px 10px #868686;
+}	
+
+.review-top-label {
+	padding: 2px;
+}
+
+.review-bottom-label {
+	float: right;
+	padding: 0px 5px 5px 0px;
+}
+
+.review-content {
+	text-align: justify;
+	padding: 10px 0px;
+	margin-right: 15px;
+}
+
+.preview-review-title {
+	font-size: 20px;
+	padding: 10px 0px;
+}
